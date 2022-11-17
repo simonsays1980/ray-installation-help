@@ -31,7 +31,7 @@ echo "Install ray rllib, tune and ml ... "
 python -m pip install -U --no-cache-dir "ray[rllib,tune,ml]"
 
 echo "Install linter requirements ..."
-python -m pip install -U --no-cache-dir -r python/requirements_linter.txt
+python -m pip install -U --no-cache-dir -r python/requirements_linters.txt
 
 echo "Install tensorflow and torch ... "
 python -m pip install tensorflow torch 
